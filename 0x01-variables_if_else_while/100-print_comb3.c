@@ -17,13 +17,15 @@ int main(void)
 		while (db <= 9)
 		{
 		if (da != db && da < db)
+		{
 			putchar(da + 48);
-			putcahr(db + 48);
-		if (da + db != 17)
+			putchar(db + 48);
+		if (da+db != 17)
 		{
 			putchar(',');
 			putchar(' ');
 			}
+		}
 			db++;
 		}
 		da++;
