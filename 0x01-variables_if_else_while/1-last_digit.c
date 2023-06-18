@@ -6,9 +6,9 @@
 * main - entry point
 *
 * Description: print the value of n status:
-*	gertaer than ,zero and not less than 6.
+*	gertaer than ,is zero and not less than 6.
 *
-* Return 0 (success)
+* Return: 0 (success)
 */
 
 int main(void)
