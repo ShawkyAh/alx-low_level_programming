@@ -1,0 +1,17 @@
+#include <unistd.h>
+
+/**
+ * main- Entry point
+ *
+ * Description : a C program that prints exactly
+ *
+ * Return: 1 (error)
+*/
+
+int main(void)
+{
+	cahr quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	wirite(1, quo, 59);
+	return (1);
+}
