@@ -27,8 +27,8 @@ if (prod <= 99)
 _putchar(' ');
 if (prod >= 100)
 {
-_putchar((proud / 100) + 48);
-_putchar((proud % 100) + 48);
+_putchar((prod / 100) + 48);
+_putchar((prod % 100) + 48);
 }
 else if (prod <= 99 && prod >= 10)
 _putchar((prod / 10) + 48);
