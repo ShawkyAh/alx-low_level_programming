@@ -11,14 +11,16 @@
 int numLength(int num)
 {
 int l = 0;
+
 if (!num)
-return (1);
+
+	return (1);
 while (num)
 {
-num= num / 10;
+num = num / 10;
 l += 1;
 }
-return (l)
+return (l);
 }
 
 /**
@@ -32,7 +34,7 @@ return (l)
 
 int main(void)
 {
-int count, ini;
+	int count, ini;
 unsigned long f1 = 0, f2 = 1, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
 for (count = 1; count <= 98; count++)
