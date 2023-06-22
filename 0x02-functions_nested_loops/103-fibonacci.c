@@ -24,6 +24,6 @@ ts += sum;
 f1 = f2;
 f2 = sum;
 }
-printf("%.0\n", ts);
+printf("%.0f\n", ts);
 return (0);
 }
