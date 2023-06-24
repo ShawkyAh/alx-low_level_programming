@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * main: print numbers 1-100 by a new line
+ * main - print numbers 1-100 by a new line
  * numbers that are multiples of 3 print fizz
  * numbers that are multiples of 5 print buzz
  * numbers that are multiples of 3 and 5 print fizzbuzz
  * each number and word to be seprated
- *
- * @size: is the size of the square
  *
  * Return: always 0 (success)
 */
