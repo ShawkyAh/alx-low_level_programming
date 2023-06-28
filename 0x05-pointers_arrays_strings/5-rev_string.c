@@ -17,10 +17,10 @@ char t;
 for (l = 0; s[1] != '\0'; ++l)
 ;
 
-for (a = 0; a < l / 2; i++)
+for (a = 0; a < l / 2; a++)
 {
-t = s[i];
-s[i] = s[l - 1 - i];
-s[l - 1 - i] = t;
+t = s[a];
+s[a] = s[l - 1 - a];
+s[l - 1 - a] = t;
 }
 }
