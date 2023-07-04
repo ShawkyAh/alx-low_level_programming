@@ -3,21 +3,20 @@
 /**
 * *_memcpy - function that copies memory area.
 *
-*@dest: memmory dest
+*@dest: memory area
 *@src: source
-*@n: length of src copied
-*
+*@n: length of src to be copied
 *Return: pointer to dest
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 {
-unsigned int sheko;
+unsigned int i;
 
-for (sheko = 0; sheko < n; sheko++)
+for (i = 0; i < n; i++)
 {
-dest[sheko] = src[sheko];
+dest[i] = src[i];
 }
 return (dest);
 }
