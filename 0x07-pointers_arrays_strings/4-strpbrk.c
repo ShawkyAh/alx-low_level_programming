@@ -11,23 +11,23 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-int aaa, baa;
-char *p;
+int aqa, bqa;
+char *z;
 
 aaa = 0;
-while (s[aaa] != '\0')
+while (s[aqa] != '\0')
 {
 baa = 0;
-while (accpet[baa] != '\0')
+while (accpet[bqa] != '\0')
 {
-if (accept[baa] == s[aaa])
+if (accept[bqa] == s[aqa])
 {
-p = &s[aaa];
-return (p);
+z = &s[aqa];
+return (z);
 }
-baa++;
+bqa++;
 }
-aaa++;
+aqa++;
 }
 return (0);
 }
