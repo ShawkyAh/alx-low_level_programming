@@ -12,7 +12,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 int aqa, bqa;
-char *z;
+char *p;
 
 aqa = 0;
 while (s[aqa] != '\0')
@@ -22,8 +22,8 @@ while (accpet[bqa] != '\0')
 {
 if (accept[bqa] == s[aqa])
 {
-z = &s[aqa];
-return (z);
+p = &s[aqa];
+return (p);
 }
 bqa++;
 }
