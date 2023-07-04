@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* *_strpbrk - gets the length of a prefix substring
+* *_strpbrk - search a string for any of a set of bytes
 *
 *@s: string
-*@accept: bytes
-*
-*Return: unsigned int
+*@accept: string to match
+*Return: a pointer to the byte in s that matches one of the bytes in accept,
+* or NULL if no such byte is found
 */
 
 char *_strpbrk(char *s, char *accept)
@@ -14,10 +14,10 @@ char *_strpbrk(char *s, char *accept)
 int aqa, bqa;
 char *z;
 
-aaa = 0;
+aqa = 0;
 while (s[aqa] != '\0')
 {
-baa = 0;
+bqa = 0;
 while (accpet[bqa] != '\0')
 {
 if (accept[bqa] == s[aqa])
