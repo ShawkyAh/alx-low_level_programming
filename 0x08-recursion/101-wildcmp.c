@@ -32,11 +32,9 @@ int a = 0;
 if (*s1 == 0)
 return (0);
 if (*s1 == *s2)
-{
 a += wildcmp(s1 + 1, s2 + 1);
-}
 a += inception(s1 + 1, s2);
-return (ret);
+return (a);
 }
 
 /**
@@ -68,7 +66,7 @@ s2 = move_past_star(s2);
 if (!*s2)
 return (1);
 if (*s1 == *s2)
-a += wild cmp(s1 + 1, s2 + 1);
+a += wildcmp(s1 + 1, s2 + 1);
 a += inception(s1, s2);
 return (!!a);
 }
