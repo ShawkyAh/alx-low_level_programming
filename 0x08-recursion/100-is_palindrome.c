@@ -28,7 +28,8 @@ return (n);
 
 int is_palindrome(char *s)
 {
-int end = last_index(s);
+int b = last_index(s);
+
 return (check(s, 0, b - 1, b % 2));
 }
 
