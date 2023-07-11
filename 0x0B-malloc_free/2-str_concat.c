@@ -36,7 +36,7 @@ s2 = "\0";
 z1 = _strlen(s1);
 z2 = _strlen(s2);
 
-m = malloc((z1 + z2) * (sizeof(char) + 1));
+m = malloc((z1 + z2) *(sizeof(char) + 1));
 if (m == 0)
 return (0);
 
@@ -50,7 +50,7 @@ else
 {
 m[i] = s2[i - z1];
 }
-m[i] = '\0';
 }
+m[i] = '\0';
 return (m);
 }
