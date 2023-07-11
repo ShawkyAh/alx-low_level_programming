@@ -26,7 +26,7 @@ t[a] = malloc(sizeof(**t) * width);
 if (t[a] == 0)
 {
 while (a--)
-free(t[i]);
+free(t[a]);
 free(t);
 return (NULL);
 }
