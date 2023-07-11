@@ -51,6 +51,6 @@ else
 m[i] = s2[i - z1];
 }
 m[i] = '\0';
-return (m);
 }
+return (m);
 }
