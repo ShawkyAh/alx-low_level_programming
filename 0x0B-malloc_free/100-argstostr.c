@@ -35,11 +35,9 @@ return (NULL);
 for (; a < ac; a++, c++)
 c += _strlen(av[a]);
 
-s = malloc(sizeof(char) * c + 1)
+s = malloc(sizeof(char) * c + 1);
 if (s == 0)
-{
 	return (NULL);
-}
 for (a = 0; a < ac; a++)
 {
 for (d = 0; av[a][d] != '\0'; d++, z++)
