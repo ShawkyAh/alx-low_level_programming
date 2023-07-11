@@ -9,7 +9,7 @@
 *Return: second array
 */
 
-int **alloc_grid(int width, int height);
+int **alloc_grid(int width, int height)
 {
 int **t, a, z;
 t = malloc(sizeof(*t) * height);
