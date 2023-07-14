@@ -25,7 +25,7 @@ return (ptr);
 *Return: pointer
 */
 
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *m;
 
