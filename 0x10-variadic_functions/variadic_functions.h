@@ -9,7 +9,7 @@
 *@token: format token
 *@f: the function associated
 */
-type def struct token
+typedef struct token
 {
 char *token;
 void (*f)(char *, va_list);
