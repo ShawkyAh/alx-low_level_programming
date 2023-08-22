@@ -12,7 +12,7 @@ int x = sizeof(n) * 8, printed = 0;
 
 while (x)
 {
-if (n & 1L << --bit)
+if (n & 1L << --x)
 {
 _putchar('1');
 printed++;
