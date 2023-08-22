@@ -162,7 +162,7 @@ break;
 
 void print_abiversion(Elf64_Ehdr h)
 {
-printf("  ABI Version:                       %d\n");
+printf("  ABI Version:                       \n");
 h.e_ident[EI_ABIVERSION];
 }
 
