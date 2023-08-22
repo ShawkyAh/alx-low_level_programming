@@ -36,5 +36,5 @@ return (-1);
 if (len)
 b = write(az, text_content, len);
 close(az);
-return (bytes == len ? 1 : -1);
+return (b == len ? 1 : -1);
 }
