@@ -248,7 +248,7 @@ printf("\n");
 int main(int ac, char **av)
 {
 int fd;
-Elf64_ehdr h;
+Elf64_Ehdr h;
 ssize_t b;
 
 if (ac != 2)
