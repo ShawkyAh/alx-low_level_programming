@@ -51,10 +51,10 @@ printf("  Data:                              ");
 switch (h.e_ident[EI_DATA])
 {
 case ELFDATA2MSB:
-printf("2`s complement, big endian");
+printf("2's complement, big endian");
 break;
 case ELFDATA2LSB:
-printf("2`s complement, little endian");
+printf("2's complement, little endian");
 break;
 case ELFDATANONE:
 printf("none");
@@ -182,10 +182,10 @@ i = 1;
 switch (p[i])
 {
 case ET_NONE:
-printf("NONE (none)");
+printf("NONE (None)");
 break;
 case ET_REL:
-printf("REL (Relocatble file)");
+printf("REL (Relocatable file)");
 break;
 case ET_EXEC:
 printf("EXEC (Executable file)");
@@ -259,7 +259,7 @@ dprintf(STDERR_FILENO, "Can't open file: %s\n", av[1]), exit(98);
 b = read(fd, &h, sizeof(h));
 if (b < 1 || b != sizeof(h))
 dprintf(STDERR_FILENO, "Can't read from file: %s\n", av[1]), exit(98);
-	if (h.e_ident[0] == 0x7f && h.e_ident[1] == 'E' && h.e_ident[2] == 'L' &&
+if (h.e_ident[0] == 0x7f && h.e_ident[1] == 'E' && h.e_ident[2] == 'L' &&
 h.e_ident[3] == 'F')
 {
 printf("ELF Header:\n");
